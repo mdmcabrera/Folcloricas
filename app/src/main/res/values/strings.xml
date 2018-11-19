@@ -1,3 +1,13 @@
 <resources>
     <string name="app_name">Folcloricas</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string-array name="type">
+        <item>Nuevo juego</item>
+        <item>4 X 4 (Muy Fácil)</item>
+        <item>4 X 5 (Fácil)</item>
+        <item>4 X 6 (Normal)</item>
+        <item>5 X 6 (Díficil</item>
+        <item>6 X 6 (Muy Díficil)</item>
+    </string-array>
 </resources>
