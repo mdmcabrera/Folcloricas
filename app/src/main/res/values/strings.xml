@@ -1,3 +1,55 @@
 <resources>
     <string name="app_name">Folcloricas</string>
+    <string name="login">Login</string>
+    <string name="registrarse">Registrarse</string>
+    <string name="email">Email</string>
+    <string name="password">Contraseña</string>
+    <string name="bios">Biografías</string>
+    <string name="registro">Registro</string>
+
+    <string name="diaz">Marujita Diaz</string>
+    <string name="bioMarujita">María del Dulce Nombre Díaz Ruiz, conocida como Marujita Díaz
+        (Sevilla, 27 de abril de 1932-Madrid, 23 de junio de 2015), fue una actriz y cantante
+        española, tronío de España,​ gloria del cine español de las décadas de 1950 y 1960.
+        Fue considerada como la Reina de la Revista Española. Hizo teatro, revista musical,
+        cine y televisión, abordando géneros tan dispares como el pasodoble, la copla, el cuplé,
+        la zarzuela, el tango y el charlestón.</string>
+    <string name="fraseMarujita">FRASE CÉLEBRE: "Yo nado en la ambulancia"</string>
+    
+    <string name="fary">El Fary</string>
+    <string name="bioFary">José Luis Cantero Rada, más conocido por su nombre artístico «el Fary»
+        (Madrid, 20 de agosto de 1937 - ibídem, 19 de junio de 2007), fue un cantante y actor español.
+        Antes de tener éxito trabajó como jardinero y taxista, para reunir el dinero que le permitió
+        grabar sus primeras canciones. Una vez editados los discos, él mismo los vendía en el Rastro de Madrid.
+        En esa época también participaba en certámenes radiofónicos y actuaba en fiestas locales.</string>
+    <string name="fraseFary">FRASE CÉLEBRE: "La infidelidad en la mujer debería ser obligatoria. Por la parte que me pertenece,
+        porque considero que me tocarían tres o cuatro más" </string>
+
+    <string name="flores">Lola Flores</string>
+    <string name="bioFlores">María Dolores Flores Ruiz, conocida artísticamente como Lola Flores y apodada la Faraona
+        (Jerez de la Frontera, Cádiz, 21 de enero de 1923-La Moraleja, Alcobendas, Madrid, 16 de mayo de 1995),
+        fue una cantante de copla de gran popularidad, bailaora y actriz española, faceta con la que alcanzó relevancia
+        en España y América durante la segunda mitad del siglo xx.</string>
+    <string name="fraseFlores">FRASE CÉLEBRE: Si me queréis, ¡irse!</string>
+
+    <string name="jurado">Rocío Jurado</string>
+    <string name="bioJurado">María del Rocío Trinidad Mohedano Jurado, conocida artísticamente como Rocío Jurado
+        (Chipiona, Cádiz, 18 de septiembre de 19461​-La Moraleja, Alcobendas, Madrid, 1 de junio de 20062​) fue una
+        cantante andaluza de fama internacional, que se especializó en géneros musicales como la copla andaluza y
+        el flamenco, así como en el pop español, bolero y la balada romántica, faceta con la que alcanzó relevancia
+        en España y América.</string>
+    <string name="fraseJurado">FRASE CÉLEBRE: Se nos rompió el amor de tanto usarlo</string>
+
+    <string name="montiel">Sara Montiel</string>
+    <string name="bioMontiel">María Antonia Abad Fernández, conocida artísticamente como Sara Montiel
+        (Campo de Criptana, Ciudad Real, 10 de marzo de 1928 - Madrid, 8 de abril de 2013)2​3​ fue una
+        actriz de cine, cantante y productora cinematográfica española, considerada el rostro más bello
+        del cine español. Obtuvo también la nacionalidad mexicana en 1951.​</string>
+    <string name="fraseMontiel">FRASE CÉLEBRE: ¿Pero qué pasa?¿Pero qué invento es esto?</string>
+
+    <string name="pantoja">Isabel Pantoja</string>
+    <string name="bioPantoja">María Isabel Pantoja Martín (Sevilla, 2 de agosto de 1956), más conocida
+        como Isabel Pantoja, es una cantante española de copla andaluza. Posee una discografía de 30
+        álbumes y ha realizado numerosas giras en España y América Latina con la colaboración de Juan Gabriel</string>
+    <string name="frasePantoja">FRASE CÉLEBRE: ¡Dientes, dientes, que eso es lo que les jode!</string>
 </resources>

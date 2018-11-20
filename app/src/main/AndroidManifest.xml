@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.marca.folcloricas">
+    <uses-permission android:name="android.permission.INTERNET"/>
 
     <application
         android:allowBackup="true"
@@ -15,6 +16,39 @@
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
+        </activity>
+
+        <activity
+            android:name=".Registro">
+
+        </activity>
+        <activity
+            android:name=".Biografias">
+
+        </activity>
+        <activity
+            android:name=".DiazActivity">
+
+        </activity>
+        <activity
+            android:name=".FaryActivity">
+
+        </activity>
+        <activity
+            android:name=".FloresActivity">
+
+        </activity>
+        <activity
+            android:name=".JuradoActivity">
+
+        </activity>
+        <activity
+            android:name=".MontielActivity">
+
+        </activity>
+        <activity
+            android:name=".PantojaActivity">
+
         </activity>
     </application>
 

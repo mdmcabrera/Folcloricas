@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "921084729200",
+    "firebase_url": "https://folcloricas-222615.firebaseio.com",
+    "project_id": "folcloricas-222615",
+    "storage_bucket": "folcloricas-222615.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:921084729200:android:7dd38888b756a0c5",
+        "android_client_info": {
+          "package_name": "com.marca.folcloricas"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "921084729200-ocs5i2j8ksb0dr7fh18qlrhispq0l7n6.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.marca.folcloricas",
+            "certificate_hash": "b6be9e8c5a63eec2257c1ce9adce27bcac528fd9"
+          }
+        },
+        {
+          "client_id": "921084729200-so1smb2hns74l413bmi2a9du5eh6leec.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDAnBuJQFSIQNDluneaNbM20gi43BW6640"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "921084729200-so1smb2hns74l413bmi2a9du5eh6leec.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

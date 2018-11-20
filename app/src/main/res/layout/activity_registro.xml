@@ -1,6 +1,95 @@
 <?xml version="1.0" encoding="utf-8"?>
-<android.support.constraint.ConstraintLayout
-    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
-    android:layout_height="match_parent">
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/gradient"
+    tools:context=".MainActivity">
 
-</android.support.constraint.ConstraintLayout>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="43dp"
+        android:text="@string/registro"
+        android:textSize="34sp" />
+
+
+    <EditText
+        android:id="@+id/etUserReg"
+        android:layout_width="230dp"
+        android:layout_height="35dp"
+        android:layout_alignStart="@+id/btRegistroUser"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="2dp"
+        android:layout_marginTop="134dp"
+        android:background="#11000000"
+        android:ems="10"
+        android:hint="Email"
+        android:inputType="textPersonName"
+        android:text="@string/email"
+        android:textColor="#f9f6bc"
+        android:textSize="19dp"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="92dp"
+        tools:layout_editor_absoluteY="244dp" />
+
+    <EditText
+        android:id="@+id/etPassReg"
+        android:layout_width="230dp"
+        android:layout_height="35dp"
+        android:layout_alignStart="@+id/etUserReg"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="1dp"
+        android:layout_marginBottom="334dp"
+        android:background="#11000000"
+        android:ems="10"
+        android:hint="Contraseña"
+        android:inputType="textPassword"
+        android:textColor="#f9f6bc"
+        android:textSize="19dp"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="92dp"
+        tools:layout_editor_absoluteY="300dp" />
+
+    <EditText
+        android:id="@+id/etPassConfirmReg"
+        android:layout_width="230dp"
+        android:layout_height="35dp"
+        android:layout_alignStart="@+id/etUserReg"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="0dp"
+        android:layout_marginBottom="266dp"
+        android:background="#11000000"
+        android:ems="10"
+        android:hint="Confirmar contraseña"
+        android:inputType="textPassword"
+        android:textColor="#f9f6bc"
+        android:textSize="19dp"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="92dp"
+        tools:layout_editor_absoluteY="300dp" />
+
+    <Button
+        android:id="@+id/btRegistroUser"
+        android:layout_width="211dp"
+        android:layout_height="40dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="87dp"
+        android:background="#6d2b2b"
+        android:bottomLeftRadius="30dp"
+        android:bottomRightRadius="30dp"
+        android:text="@string/registrarse"
+        android:textColor="#f9f6bc"
+        android:topLeftRadius="30dp"
+        android:topRightRadius="30dp"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="92dp"
+        tools:layout_editor_absoluteY="411dp" />
+
+
+</RelativeLayout>
