@@ -24,7 +24,7 @@ public class MainActivity extends AppCompatActivity {
         final EditText etUser = (EditText) findViewById(R.id.etUser);
         final EditText etPass = (EditText) findViewById(R.id.etPass);
         final Button btRegistro = (Button) findViewById(R.id.btRegistro);
-        final Button btBiografias = (Button) findViewById(R.id.btBio);
+
 
         // BOTON LOGIN
         btLogin.setOnClickListener(new View.OnClickListener() {
@@ -60,14 +60,7 @@ public class MainActivity extends AppCompatActivity {
             }
         });
 
-        // BOTON BIOGRAFIAS
-        btBiografias.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                Intent intento = new Intent(MainActivity.this, Biografias.class);
-                startActivity(intento);
-            }
-        });
+       
 
     }
 }
