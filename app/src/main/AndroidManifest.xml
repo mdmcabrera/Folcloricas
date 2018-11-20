@@ -67,8 +67,10 @@
         <activity
             android:name=".Juego"
             android:screenOrientation="portrait"></activity>
+
         <activity
             android:name=".Settings"
+            android:theme="@style/PreferencesTheme"
             android:screenOrientation="portrait"></activity>
     </application>
 

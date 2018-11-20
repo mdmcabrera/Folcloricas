@@ -41,6 +41,7 @@ public class MainActivity extends AppCompatActivity {
                     if(checkLogin == true){
 
                         Intent intento = new Intent(MainActivity.this, Inicio.class);
+                        intento.putExtra("name", email);
                         startActivity(intento);
 
                     }

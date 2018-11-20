@@ -1,16 +1,19 @@
 <?xml version="1.0" encoding="utf-8"?>
-<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/Preferencias">
 
     <EditTextPreference android:title="Usuario"
         android:key="username"
         android:summary="Tu usuario es"/>
-    <CheckBoxPreference android:title="Application Updates"
+    <CheckBoxPreference
+        android:title="Tener la aplicacion actualizada"
         android:defaultValue="false"
-        android:summary="This option if selected will allow the application to check for latest versions."
+        android:summary="Marca esta casilla para tener la version de tu app actualizada"
         android:key="applicationUpdates" />
-    <ListPreference     android:title="Download Details"
-        android:summary="Select the kind of data that you would like to download"
-        android:key="downloadType"
+    <ListPreference
+        android:title="Artistas favoritos"
+        android:summary="Selecciona tu artita favorito"
+        android:key="ArtistaType"
         android:defaultValue="1"
         android:entries="@array/listArray"
         android:entryValues="@array/listValues" />

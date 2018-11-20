@@ -46,7 +46,6 @@ public class reproductor_musica  extends AppCompatActivity {
         positionBar.setMax(totalTime);
         positionBar.setOnSeekBarChangeListener(
                 new SeekBar.OnSeekBarChangeListener() {
-                    @Override
                     public void onProgressChanged(SeekBar seekBar, int progress, boolean fromUser) {
                         if (fromUser) {
                             mp.seekTo(progress);
@@ -69,7 +68,7 @@ public class reproductor_musica  extends AppCompatActivity {
 
 
 
-        // Thread (Update positionBar & timeLabel)
+        //Actualiza positionBar y timeLabel)
         new Thread(new Runnable() {
 
             public void run() {

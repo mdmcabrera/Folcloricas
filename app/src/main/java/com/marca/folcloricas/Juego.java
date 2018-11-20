@@ -56,8 +56,7 @@ public class Juego extends AppCompatActivity {
         context  = mainTable.getContext();
 
         Spinner s = (Spinner) findViewById(R.id.Spinner01);
-        ArrayAdapter adapter = ArrayAdapter.createFromResource(
-                this, R.array.type, android.R.layout.simple_spinner_item);
+        ArrayAdapter adapter = ArrayAdapter.createFromResource(this, R.array.type, android.R.layout.simple_spinner_item);
         adapter.setDropDownViewResource(android.R.layout.simple_spinner_dropdown_item);
         s.setAdapter(adapter);
 
@@ -96,7 +95,6 @@ public class Juego extends AppCompatActivity {
             }
 
 
-            @Override
             public void onNothingSelected(AdapterView<?> arg0) {
 
             }
@@ -222,7 +220,6 @@ public class Juego extends AppCompatActivity {
 
     class ButtonListener implements View.OnClickListener {
 
-        @Override
         public void onClick(View v) {
 
             synchronized (lock) {
@@ -280,7 +277,6 @@ public class Juego extends AppCompatActivity {
 
     class UpdateCardsHandler extends Handler { //Handler para comprar si las cartas son identicas o si son diferentes
 
-        @Override
         public void handleMessage(Message msg) {
             synchronized (lock) {
                 checkCards();
