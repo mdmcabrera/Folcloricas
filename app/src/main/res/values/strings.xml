@@ -1,5 +1,19 @@
 <resources>
     <string name="app_name">Folcloricas</string>
+        española, tronío de España, gloria del cine español de las décadas de 1950 y 1960.
+        (Chipiona, Cádiz, 18 de septiembre de 19461-La Moraleja, Alcobendas, Madrid, 1 de junio de 20062) fue una
+        (Campo de Criptana, Ciudad Real, 10 de marzo de 1928 - Madrid, 8 de abril de 2013)23 fue una
+        del cine español. Obtuvo también la nacionalidad mexicana en 1951​</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string-array name="type">
+        <item>Nuevo juego</item>
+        <item>4 X 4 (Muy Fácil)</item>
+        <item>4 X 5 (Fácil)</item>
+        <item>4 X 6 (Normal)</item>
+        <item>5 X 6 (Díficil</item>
+        <item>6 X 6 (Muy Díficil)</item>
+    </string-array>
     <string name="login">Login</string>
     <string name="registrarse">Registrarse</string>
     <string name="email">Email</string>
