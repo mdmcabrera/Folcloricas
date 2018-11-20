@@ -31,6 +31,7 @@ public class Inicio extends AppCompatActivity implements NavigationView.OnNaviga
         toggle.syncState();
 
         NavigationView navigationView = (NavigationView) findViewById(R.id.nav_view);
+        navigationView.setBackgroundColor(getResources().getColor(R.color.colorPrimaryDark));
         navigationView.setNavigationItemSelectedListener(this);
 
 

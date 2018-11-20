@@ -19,7 +19,6 @@
         android:text="Bienvenido"
         android:textColor="#580c1f"
         android:textSize="25dp"
-
         android:textStyle="bold" />
 
 
