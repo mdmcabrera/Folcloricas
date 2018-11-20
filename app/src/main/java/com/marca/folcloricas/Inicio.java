@@ -52,7 +52,8 @@ public class Inicio extends AppCompatActivity implements NavigationView.OnNaviga
         int id = item.getItemId();
 
         if (id == R.id.nav_home) {
-
+            Intent bio = new Intent(this, Biografias.class);
+            startActivity(bio);
 
         } else if (id == R.id.nav_radio) {
 

@@ -11,7 +11,7 @@
         android:layout_alignParentTop="true"
         android:text="Hola"
         android:textAppearance="?android:attr/textAppearanceSmall"
-        android:textColor="@android:color/black" />
+        android:textColor="@color/white" />
     
     <TextView
         android:id="@+id/type"
@@ -20,6 +20,6 @@
         android:layout_below="@+id/name"
         android:layout_marginTop="5dp"
         android:text="Ejemplo"
-        android:textColor="@android:color/black" />
+        android:textColor="@color/white" />
 
 </RelativeLayout>

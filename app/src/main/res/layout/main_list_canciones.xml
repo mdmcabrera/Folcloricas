@@ -6,12 +6,14 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     tools:context="com.marca.folcloricas.Inicio"
     app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    android:background="@drawable/gradient"
     tools:showIn="@layout/main_list_canciones">
 
     <ListView
         android:id="@+id/list"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+
         />
 
 </RelativeLayout>

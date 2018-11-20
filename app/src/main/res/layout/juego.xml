@@ -2,6 +2,7 @@
 <TableLayout android:layout_width="fill_parent"
     android:layout_height="fill_parent"
     xmlns:android="http://schemas.android.com/apk/res/android"
+    android:background="@drawable/gradient"
     android:id="@+id/TableLayout03">
 
     <TableRow
@@ -60,7 +61,7 @@
             android:visibility="visible"
             android:textSize="30sp"
             android:paddingTop="20sp"
-            android:textColor="#EEFFAA"
+            android:textColor="	#f4a460"
             android:id="@+id/mainTitle"/>
     </TableRow>
     <TableRow

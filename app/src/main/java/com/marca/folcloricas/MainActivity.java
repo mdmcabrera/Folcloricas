@@ -39,7 +39,10 @@ public class MainActivity extends AppCompatActivity {
                 else{
                     Boolean checkLogin = bbdd.checkLogin(email, password);
                     if(checkLogin == true){
-                        Toast.makeText(getApplicationContext(), "Login correcto", Toast.LENGTH_SHORT).show();
+
+                        Intent intento = new Intent(MainActivity.this, Inicio.class);
+                        startActivity(intento);
+
                     }
                     else{
                         Toast.makeText(getApplicationContext(), "Login incorrecto", Toast.LENGTH_SHORT).show();

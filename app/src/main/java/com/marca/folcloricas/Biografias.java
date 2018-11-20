@@ -1,14 +1,13 @@
 package com.marca.folcloricas;
-
-import android.app.Activity;
 import android.content.Intent;
 import android.media.MediaPlayer;
 import android.os.Bundle;
+import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.CardView;
 import android.view.View;
 import android.widget.GridLayout;
 
-public class Biografias extends Activity {
+public class Biografias extends AppCompatActivity {
     MediaPlayer diazSound, farySound, floresSound, juradoSound, montielSound, pantojaSound;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -17,7 +16,7 @@ public class Biografias extends Activity {
 
         GridLayout mainGrid = (GridLayout) findViewById(R.id.maingrid);
         diazSound = MediaPlayer.create(this,R.raw.marujitadiaz);
-        farySound = MediaPlayer.create(this, R.raw.fary);
+        farySound = MediaPlayer.create(this, R.raw.elfary);
         floresSound = MediaPlayer.create(this, R.raw.lolaflores);
         juradoSound = MediaPlayer.create(this, R.raw.rociojurado);
         montielSound = MediaPlayer.create(this, R.raw.saramontiel);
